@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticketchart | Login</title>
+  <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./assets/icon.png">
+</head>
+<body>
+  <div class="logo">
+    <img src="./assets/marcopolo.svg" alt="Logo da Aplicação">
+  </div>
+  
+  <div class="container">
+    <h2>Entrar</h2>
+
+    <div class="input-group">
+      <label for="username">Matrícula</label>
+      <input type="text" id="username" placeholder="Digite sua matrícula">
+    </div>
+
+    <div class="input-group">
+      <label for="password">Senha</label>
+      <input type="password" id="password" placeholder="Digite sua senha">
+    </div>
+
+    <button id="loginBtn">Accesar</button>
+    <p>Não tem conta? <span onclick="window.location='register.html'">Registrar-se</span></p>
+  </div>
+
+  <script type="module" src="./js/login.js"></script>
+</body>
+</html>

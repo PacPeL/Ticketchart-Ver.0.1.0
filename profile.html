@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticketchart | Perfil</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="logo">
+    <img src="./assets/marcopolo.svg" alt="Logo da Aplicação">
+  </div>
+
+  <div class="container">
+    <div class="profile-photo-container">
+      <img id="profileImage" src="default-profile.png" alt="Foto de Perfil">
+      <input type="file" id="profilePhoto" accept="image/*" style="display:none;">
+    </div>
+
+    <div class="input-group">
+      <label for="username">Matrícula</label>
+      <input type="text" id="username" placeholder="Sua matrícula">
+    </div>
+
+    <div class="input-group">
+      <label for="password">Senha</label>
+      <input type="password" id="password" placeholder="Nova senha (opcional)">
+    </div>
+
+    <button id="updateBtn">Atualizar Perfil</button>
+    <button id="logoutBtn" class="logout-btn">Sair</button>
+  </div>
+
+  <script type="module" src="./js/profile.js"></script>
+</body>
+</html>
